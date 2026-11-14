@@ -1,0 +1,438 @@
+<mxfile host="app.diagrams.net" pages="5">
+  <diagram id="Hình 4.1 – Lớp tổng quát" name="Hình 4.1 – Lớp tổng quát">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Biểu đồ lớp tổng quát – Ứng dụng Giai Điệu" vertex="1">
+          <mxGeometry height="36" width="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="ChangeNotifier&lt;br&gt;&lt;small&gt;(Flutter)&lt;/small&gt;" vertex="1">
+          <mxGeometry height="40" width="140" x="670" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="swimlane;startSize=24;html=1;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Provider" vertex="1">
+          <mxGeometry height="90" width="1440" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="AuthProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="40" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="SongProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="218" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="PlaylistProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="396" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="PlayerProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="574" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="HistoryProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="752" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="UserProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="930" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="StatsProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="1108" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="SettingsProvider" vertex="1">
+          <mxGeometry height="40" width="150" x="1286" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c4" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" edge="1" parent="1" source="c5" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" edge="1" parent="1" source="c6" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" edge="1" parent="1" source="c7" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" edge="1" parent="1" source="c8" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" edge="1" parent="1" source="c9" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" edge="1" parent="1" source="c10" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" edge="1" parent="1" source="c11" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="swimlane;startSize=24;html=1;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Service" vertex="1">
+          <mxGeometry height="90" width="200" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="AudioService" vertex="1">
+          <mxGeometry height="40" width="150" x="45" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="swimlane;startSize=24;html=1;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Repository" vertex="1">
+          <mxGeometry height="90" width="1220" x="240" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="AuthRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="260" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="SongRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="460" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="PlaylistRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="660" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="HistoryRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="860" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="UserRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="1060" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="StatsRepository" vertex="1">
+          <mxGeometry height="40" width="170" x="1260" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" parent="1" style="swimlane;startSize=24;html=1;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Data Access" vertex="1">
+          <mxGeometry height="90" width="1440" x="20" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="AuthRemote" vertex="1">
+          <mxGeometry height="40" width="170" x="260" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="AppSupabase" vertex="1">
+          <mxGeometry height="40" width="170" x="660" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="LocalCacheStore" vertex="1">
+          <mxGeometry height="40" width="150" x="1060" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="PrefsStore" vertex="1">
+          <mxGeometry height="40" width="150" x="1260" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="just_audio&lt;br&gt;&lt;small&gt;AudioPlayer&lt;/small&gt;" vertex="1">
+          <mxGeometry height="44" width="150" x="45" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="supabase_flutter&lt;br&gt;&lt;small&gt;SupabaseClient&lt;/small&gt;" vertex="1">
+          <mxGeometry height="44" width="170" x="660" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=2;" value="shared_preferences&lt;br&gt;&lt;small&gt;SharedPreferences&lt;/small&gt;" vertex="1">
+          <mxGeometry height="44" width="150" x="1260" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" parent="1" style="swimlane;startSize=24;html=1;fontSize=12;fontStyle=1;align=left;spacingLeft=8;" value="Model (dùng chung ở các tầng)" vertex="1">
+          <mxGeometry height="80" width="1440" x="20" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="c38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="AppUser" vertex="1">
+          <mxGeometry height="36" width="160" x="50" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="UserRole" vertex="1">
+          <mxGeometry height="36" width="160" x="250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="Song" vertex="1">
+          <mxGeometry height="36" width="160" x="450" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="Genre" vertex="1">
+          <mxGeometry height="36" width="160" x="650" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="Playlist" vertex="1">
+          <mxGeometry height="36" width="160" x="850" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="HistoryEntry" vertex="1">
+          <mxGeometry height="36" width="160" x="1050" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#333333;" value="DashboardStats" vertex="1">
+          <mxGeometry height="36" width="160" x="1250" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="c45" edge="1" parent="1" source="c4" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c46" edge="1" parent="1" source="c5" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c47" edge="1" parent="1" source="c6" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c25" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c48" edge="1" parent="1" source="c8" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c26" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c49" edge="1" parent="1" source="c9" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c27" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c50" edge="1" parent="1" source="c10" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c28" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c51" edge="1" parent="1" source="c7" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c52" edge="1" parent="1" source="c4" style="endArrow=open;dashed=1;html=1;exitX=0.25;exitY=1;" target="c30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c53" edge="1" parent="1" source="c5" style="endArrow=open;dashed=1;html=1;strokeColor=light-dark(#FFFFFF,#FFFFFF);strokeColor=#b85450;fontColor=#b85450;fontSize=10;" target="c32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c54" edge="1" parent="1" source="c6" style="endArrow=open;dashed=1;html=1;strokeColor=#b85450;fontColor=#b85450;fontSize=10;" target="c32" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c55" edge="1" parent="1" source="c11" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;strokeColor=#b85450;" target="c33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c56" edge="1" parent="1" source="c23" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c30" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c57" edge="1" parent="1" source="c24" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c58" edge="1" parent="1" source="c25" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c59" edge="1" parent="1" source="c26" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c60" edge="1" parent="1" source="c27" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c61" edge="1" parent="1" source="c28" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c62" edge="1" parent="1" source="c30" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c31" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c63" edge="1" parent="1" source="c32" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c33" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c64" edge="1" parent="1" source="c21" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c34" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c65" edge="1" parent="1" source="c31" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c66" edge="1" parent="1" source="c33" style="endArrow=open;dashed=1;html=1;strokeColor=#1f5fa8;" target="c36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hình 4.2 – Lớp Model" name="Hình 4.2 – Lớp Model">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Sơ đồ lớp – Các lớp Model" vertex="1">
+          <mxGeometry height="36" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«enumeration»&lt;/i&gt;&lt;br&gt;&lt;b&gt;UserRole&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;user&lt;br&gt;admin&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fromString(value: String?): UserRole «static»&lt;/p&gt;" vertex="1">
+          <mxGeometry height="127" width="270" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AppUser&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: String&lt;br&gt;- name: String&lt;br&gt;- email: String&lt;br&gt;- role: UserRole&lt;br&gt;- isActive: bool&lt;br&gt;- avatarUrl: String?&lt;br&gt;- createdAt: DateTime?&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isAdmin: bool «get»&lt;br&gt;+ initial: String «get»&lt;br&gt;+ fromJson(json: Map): AppUser «factory»&lt;br&gt;+ toJson(): Map&lt;br&gt;+ copyWith(…): AppUser&lt;/p&gt;" vertex="1">
+          <mxGeometry height="247" width="270" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Genre&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;br&gt;- name: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fromJson(json: Map): Genre «factory»&lt;br&gt;+ toJson(): Map&lt;/p&gt;" vertex="1">
+          <mxGeometry height="127" width="250" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Song&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;br&gt;- title: String&lt;br&gt;- artist: String&lt;br&gt;- genreId: int?&lt;br&gt;- genreName: String?&lt;br&gt;- durationSeconds: int&lt;br&gt;- coverUrl: String?&lt;br&gt;- audioUrl: String?&lt;br&gt;- lyrics: String?&lt;br&gt;- playCount: int&lt;br&gt;- isVisible: bool&lt;br&gt;- createdAt: DateTime?&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ durationLabel: String «get»&lt;br&gt;+ parseDuration(input: String): int? «static»&lt;br&gt;+ fromJson(json: Map): Song «factory»&lt;br&gt;+ toJson(): Map&lt;br&gt;+ copyWith(…): Song&lt;/p&gt;" vertex="1">
+          <mxGeometry height="322" width="290" x="360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Playlist&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;br&gt;- name: String&lt;br&gt;- description: String?&lt;br&gt;- coverUrl: String?&lt;br&gt;- isVisible: bool&lt;br&gt;- songCount: int&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fromJson(json: Map): Playlist «factory»&lt;br&gt;+ toJson(): Map&lt;br&gt;+ copyWith(…): Playlist&lt;/p&gt;" vertex="1">
+          <mxGeometry height="202" width="270" x="730" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HistoryEntry&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- id: int&lt;br&gt;- song: Song&lt;br&gt;- playedAt: DateTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="250" x="730" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DashboardStats&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- users: int&lt;br&gt;- songs: int&lt;br&gt;- playlists: int&lt;br&gt;- playsToday: int&lt;br&gt;- dailyPlays: List&amp;lt;int&amp;gt;&lt;br&gt;- topSongs: List&amp;lt;Song&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ empty: DashboardStats «static const»&lt;/p&gt;" vertex="1">
+          <mxGeometry height="172" width="270" x="730" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" edge="1" parent="1" source="c3" style="endArrow=open;html=1;fontSize=11;" target="c2" value="role  1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" edge="1" parent="1" source="c5" style="endArrow=open;html=1;fontSize=11;" target="c4" value="genreId  0..1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" edge="1" parent="1" source="c7" style="endArrow=open;html=1;fontSize=11;" target="c5" value="song  1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c8" style="endArrow=open;html=1;fontSize=11;" target="c5" value="topSongs  0..5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hình 4.3 – Lớp Provider" name="Hình 4.3 – Lớp Provider">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Sơ đồ lớp – Nhóm Provider" vertex="1">
+          <mxGeometry height="36" width="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;verticalAlign=top;" value="&amp;lt;&amp;lt;Flutter&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;ChangeNotifier&lt;/b&gt;&lt;hr&gt;+ notifyListeners()" vertex="1">
+          <mxGeometry height="70" width="170" x="560" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AuthProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _repository: AuthRepository&lt;br&gt;- _remote: AuthRemote&lt;br&gt;- _user: AppUser?&lt;br&gt;- _isLoading: bool&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ initialize()&lt;br&gt;+ signIn(email, password): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ signUp(email, password, displayName): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ signOut()&lt;br&gt;+ updateLocalUser(user)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="202" width="300" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" edge="1" parent="1" source="c3" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SongProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _repository: SongRepository&lt;br&gt;- _db: LocalCacheStore ?&lt;br&gt;- _songs: List&amp;lt;Song&amp;gt;&lt;br&gt;- _genres: List&amp;lt;Genre&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ loadSongs(search?, genreId?)&lt;br&gt;+ loadGenres()&lt;br&gt;+ addSong(song): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ editSong(song): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ removeSong(id)&lt;br&gt;+ setVisibility(id, visible)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="217" width="300" x="340" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" edge="1" parent="1" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568.7704920000001" y="167" as="sourcePoint" />
+            <mxPoint x="619.590164" y="96.99999999999989" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PlaylistProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _repository: PlaylistRepository&lt;br&gt;- _db: AppDatabase?&lt;br&gt;- _playlists: List&amp;lt;Playlist&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ loadPlaylists(includeHidden)&lt;br&gt;+ createPlaylist(…)&lt;br&gt;+ updatePlaylist(p)&lt;br&gt;+ setVisibility(id, visible)&lt;br&gt;+ deletePlaylist(id)&lt;br&gt;+ songsOf(id)&lt;br&gt;+ setSongsOf(p, songIds)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="217" width="300" x="660" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" edge="1" parent="1" source="c7" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PlayerProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _audioService: AudioService&lt;br&gt;- _queue: List&amp;lt;Song&amp;gt;&lt;br&gt;- _currentSong: Song?&lt;br&gt;+ onSongStarted: Function(Song)?&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ playSong(song, queue?)&lt;br&gt;+ togglePlayPause()&lt;br&gt;+ seek(position)&lt;br&gt;+ playNext()&lt;br&gt;+ playPrevious()&lt;br&gt;+ stop()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="217" width="300" x="980" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" edge="1" parent="1" source="c9" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HistoryProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _repository: HistoryRepository&lt;br&gt;- _favorites: List&amp;lt;Song&amp;gt;&lt;br&gt;- _history: List&amp;lt;HistoryEntry&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ load()&lt;br&gt;+ isFavorite(songId): bool&lt;br&gt;+ toggleFavorite(song)&lt;br&gt;+ recordPlay(song)&lt;br&gt;+ clearHistory()&lt;br&gt;+ reset()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="202" width="300" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c11" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _repository: UserRepository&lt;br&gt;- _users: List&amp;lt;AppUser&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ loadUsers(search?)&lt;br&gt;+ toggleActive(user): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ updateProfile(user): Future&amp;lt;AppUser?&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="142" width="300" x="340" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" edge="1" parent="1" source="c13" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;StatsProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _repository: StatsRepository&lt;br&gt;- _stats: DashboardStats&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ load()&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="300" x="660" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" edge="1" parent="1" source="c15" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SettingsProvider&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _store: PrefsStore?&lt;br&gt;- _themeMode: ThemeMode&lt;br&gt;- _languageCode: String&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ t(key): String&lt;br&gt;+ setThemeMode(mode)&lt;br&gt;+ toggleDarkMode(dark)&lt;br&gt;+ setLanguage(code)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="172" width="300" x="980" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" edge="1" parent="1" source="c17" style="endArrow=block;endFill=0;html=1;strokeColor=#888888;" target="c2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hình 4.4 – Lớp Service và Repository" name="Hình 4.4 – Lớp Service và Repository">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Sơ đồ lớp – Service và Repository" vertex="1">
+          <mxGeometry height="36" width="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;SongRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validateSongInput(title, artist, duration): String? «static»&lt;br&gt;+ fetchGenres(): Future&amp;lt;List&amp;lt;Genre&amp;gt;&amp;gt;&lt;br&gt;+ fetchSongs(search?, genreId?): Future&amp;lt;List&amp;lt;Song&amp;gt;&amp;gt;&lt;br&gt;+ createSong(song): Future&amp;lt;Song&amp;gt;&lt;br&gt;+ updateSong(song): Future&amp;lt;Song&amp;gt;&lt;br&gt;+ deleteSong(id): Future&amp;lt;void&amp;gt;&lt;br&gt;+ setVisibility(id, isVisible): Future&amp;lt;Song&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="172" width="330" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlaylistRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ validateName(name): String? «static»&lt;br&gt;+ fetchPlaylists(includeHidden): Future&amp;lt;List&amp;lt;Playlist&amp;gt;&amp;gt;&lt;br&gt;+ createPlaylist(…): Future&amp;lt;Playlist&amp;gt;&lt;br&gt;+ updatePlaylist(playlist): Future&amp;lt;Playlist&amp;gt;&lt;br&gt;+ setVisibility(id, isVisible): Future&amp;lt;Playlist&amp;gt;&lt;br&gt;+ deletePlaylist(id): Future&amp;lt;void&amp;gt;&lt;br&gt;+ fetchSongsOf(playlistId): Future&amp;lt;List&amp;lt;Song&amp;gt;&amp;gt;&lt;br&gt;+ setSongsOf(playlistId, songIds): Future&amp;lt;void&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="187" width="320" x="370" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;HistoryRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ recordPlay(songId): Future&amp;lt;void&amp;gt;&lt;br&gt;+ fetchHistory(limit): Future&amp;lt;List&amp;lt;HistoryEntry&amp;gt;&amp;gt;&lt;br&gt;+ clearHistory(): Future&amp;lt;void&amp;gt;&lt;br&gt;+ fetchFavorites(): Future&amp;lt;List&amp;lt;Song&amp;gt;&amp;gt;&lt;br&gt;+ addFavorite(songId): Future&amp;lt;void&amp;gt;&lt;br&gt;+ removeFavorite(songId): Future&amp;lt;void&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="157" width="300" x="710" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;i&gt;«Provider»&lt;/i&gt;&lt;br&gt;&lt;b&gt;PlayerProvider&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="1060" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Service»&lt;/i&gt;&lt;br&gt;&lt;b&gt;AudioService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _player: AudioPlayer&lt;br&gt;+ assetPrefix: String = &#39;asset:///&#39; «static const»&lt;br&gt;+ playerStateStream: Stream&amp;lt;PlayerState&amp;gt; «get»&lt;br&gt;+ positionStream: Stream&amp;lt;Duration&amp;gt; «get»&lt;br&gt;+ durationStream: Stream&amp;lt;Duration?&amp;gt; «get»&lt;br&gt;+ isPlaying: bool «get»&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ load(url): Future&amp;lt;Duration?&amp;gt;&lt;br&gt;+ play(): Future&amp;lt;void&amp;gt;&lt;br&gt;+ pause(): Future&amp;lt;void&amp;gt;&lt;br&gt;+ stop(): Future&amp;lt;void&amp;gt;&lt;br&gt;+ seek(position): Future&amp;lt;void&amp;gt;&lt;br&gt;+ dispose(): Future&amp;lt;void&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="262" width="280" x="1030" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;" value="&lt;i&gt;«Data Access»&lt;/i&gt;&lt;br&gt;&lt;b&gt;AppSupabase&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="990" x="20" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;UserRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetchUsers(search?): Future&amp;lt;List&amp;lt;AppUser&amp;gt;&amp;gt;&lt;br&gt;+ setActive(userId, isActive): Future&amp;lt;AppUser&amp;gt;&lt;br&gt;+ updateProfile(user): Future&amp;lt;AppUser&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="112" width="310" x="20" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;StatsRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ fetchDashboard(): Future&amp;lt;DashboardStats&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="82" width="290" x="370" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;AuthRepository&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _remote: AuthRemote&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ restoreSession(): Future&amp;lt;AppUser?&amp;gt;&lt;br&gt;+ signIn(email, password): Future&amp;lt;AppUser&amp;gt;&lt;br&gt;+ signUp(email, password, displayName): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ signOut(): Future&amp;lt;void&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="157" width="310" x="700" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=default;" value="&lt;i&gt;«Data Access»&lt;/i&gt;&lt;br&gt;&lt;b&gt;AuthRemote&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="220" x="1060" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c2" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" edge="1" parent="1" source="c3" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" edge="1" parent="1" source="c4" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" edge="1" parent="1" source="c8" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" edge="1" parent="1" source="c9" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" edge="1" parent="1" source="c10" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c11" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" edge="1" parent="1" source="c5" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c6" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Hình 4.5 – Lớp Data Access" name="Hình 4.5 – Lớp Data Access">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Sơ đồ lớp – Data Access" vertex="1">
+          <mxGeometry height="36" width="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;AuthRepository&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="300" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;i&gt;«Repository»&lt;/i&gt;&lt;br&gt;&lt;b&gt;Repository truy vấn dữ liệu&lt;/b&gt;&lt;br&gt;SongRepository, PlaylistRepository, HistoryRepository, UserRepository, StatsRepository" vertex="1">
+          <mxGeometry height="80" width="330" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;i&gt;«Provider»&lt;/i&gt;&lt;br&gt;&lt;b&gt;Provider dùng cache&lt;/b&gt;&lt;br&gt;SongProvider, PlaylistProvider" vertex="1">
+          <mxGeometry height="70" width="300" x="690" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AuthRemote&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _overrideClient: SupabaseClient?&lt;br&gt;+ client: SupabaseClient «get»&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ authStateChanges: Stream&amp;lt;AuthState&amp;gt; «get»&lt;br&gt;+ currentAuthUser: User? «get»&lt;br&gt;+ getCurrentProfile(): Future&amp;lt;AppUser?&amp;gt;&lt;br&gt;+ signIn(email, password): Future&amp;lt;AppUser&amp;gt;&lt;br&gt;+ signUp(email, password, displayName): Future&amp;lt;bool&amp;gt;&lt;br&gt;+ signOut(): Future&amp;lt;void&amp;gt;&lt;br&gt;- _loadProfile(userId): Future&amp;lt;AppUser&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="202" width="320" x="20" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LocalCacheStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _store: PrefsStore&lt;br&gt;- _kSongs: String «static const»&lt;br&gt;- _kPlaylists: String «static const»&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ cacheSongs(songs): Future&amp;lt;void&amp;gt;&lt;br&gt;+ cachedSongs(): List&amp;lt;Song&amp;gt;&lt;br&gt;+ cachePlaylists(playlists): Future&amp;lt;void&amp;gt;&lt;br&gt;+ cachedPlaylists(): List&amp;lt;Playlist&amp;gt;&lt;br&gt;+ clear(): Future&amp;lt;void&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="187" width="300" x="690" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AppSupabase&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ url: String «static const»&lt;br&gt;+ anonKey: String «static const»&lt;br&gt;+ isConfigured: bool «static, get»&lt;br&gt;+ client: SupabaseClient «static, get»&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ initialize(): Future&amp;lt;void&amp;gt; «static»&lt;/p&gt;" vertex="1">
+          <mxGeometry height="142" width="650" x="20" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;PrefsStore&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- _prefs: SharedPreferences&lt;br&gt;+ themeMode: ThemeMode «get»&lt;br&gt;+ languageCode: String «get»&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ create(): Future&amp;lt;PrefsStore&amp;gt; «static»&lt;br&gt;+ setThemeMode(mode): Future&amp;lt;void&amp;gt;&lt;br&gt;+ setLanguageCode(code): Future&amp;lt;void&amp;gt;&lt;br&gt;+ getString(key): String?&lt;br&gt;+ setString(key, value): Future&amp;lt;void&amp;gt;&lt;br&gt;+ remove(key): Future&amp;lt;void&amp;gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="202" width="300" x="690" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«thư viện supabase_flutter»&lt;/i&gt;&lt;br&gt;&lt;b&gt;SupabaseClient&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;auth, from(table), rpc(fn)&lt;/p&gt;" vertex="1">
+          <mxGeometry height="82" width="650" x="20" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fontSize=11;fillColor=#ffffff;strokeColor=#333333;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;«thư viện shared_preferences»&lt;/i&gt;&lt;br&gt;&lt;b&gt;SharedPreferences&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;getString, setString, remove&lt;/p&gt;" vertex="1">
+          <mxGeometry height="82" width="300" x="690" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" edge="1" parent="1" source="c2" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c5" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" edge="1" parent="1" source="c3" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" edge="1" parent="1" source="c4" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c6" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" edge="1" parent="1" source="c5" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c7" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" edge="1" parent="1" source="c7" style="endArrow=open;dashed=1;html=1;fontSize=11;" target="c9" value="«use»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" edge="1" parent="1" source="c6" style="endArrow=open;html=1;fontSize=11;" target="c8" value="_store  1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" edge="1" parent="1" source="c8" style="endArrow=open;html=1;fontSize=11;" target="c10" value="_prefs  1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

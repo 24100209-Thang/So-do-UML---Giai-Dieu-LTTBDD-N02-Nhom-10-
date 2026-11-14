@@ -1,0 +1,167 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="Use case tổng quát" name="Use case tổng quát">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="e_off" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c_offline">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_play" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c1" parent="1" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;" value="Sơ đồ use case tổng quát – Ứng dụng nghe nhạc Giai Điệu" vertex="1">
+          <mxGeometry height="36" width="940" x="140" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="swimlane;startSize=30;html=1;fontSize=15;fontStyle=1;fillColor=none;" value="Hệ thống Giai Điệu" vertex="1">
+          <mxGeometry height="920" width="920" x="150" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Đăng ký tài khoản" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem trang chủ&lt;br&gt;&lt;small&gt;Playlist, thịnh hành, bài mới&lt;/small&gt;" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Tìm kiếm bài hát" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Nghe nhạc&lt;br&gt;&lt;small&gt;phát, tạm dừng, tua, chuyển bài&lt;/small&gt;" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="c7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Nghe Playlist" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="c8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Quản lý bài hát yêu thích" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="c9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem / xóa lịch sử nghe" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="c10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem thông tin tài khoản,&lt;br&gt;cập nhật tên hiển thị" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="c11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Lọc theo thể loại" vertex="1">
+          <mxGeometry height="52" width="190" x="470" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="c12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Ghi lịch sử &amp;amp; tăng lượt nghe" vertex="1">
+          <mxGeometry height="52" width="190" x="470" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="c13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem thông tin &amp;amp; lời bài hát" vertex="1">
+          <mxGeometry height="52" width="190" x="470" y="349" as="geometry" />
+        </mxCell>
+        <mxCell id="c14" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem thống kê tổng quan&lt;br&gt;&lt;small&gt;số liệu, biểu đồ 14 ngày, top 5&lt;/small&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="830" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="c15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Quản lý bài hát&lt;br&gt;&lt;small&gt;thêm, sửa, xóa, ẩn/hiện, lời bài hát&lt;/small&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="830" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="c16" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Quản lý Playlist&lt;br&gt;&lt;small&gt;tạo, sửa, xóa, ẩn/hiện, chọn bài&lt;/small&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="830" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="c17" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Quản lý người dùng&lt;br&gt;&lt;small&gt;xem, tìm kiếm, khóa / mở khóa&lt;/small&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="830" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="c18" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Đăng nhập" vertex="1">
+          <mxGeometry height="60" width="200" x="180" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c19" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Đăng xuất" vertex="1">
+          <mxGeometry height="60" width="200" x="400" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c20" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Cài đặt&lt;br&gt;&lt;small&gt;ngôn ngữ, giao diện sáng/tối&lt;/small&gt;" vertex="1">
+          <mxGeometry height="60" width="200" x="620" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c21" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem thông tin nhóm phát triển" vertex="1">
+          <mxGeometry height="60" width="200" x="840" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="c22" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Kiểm tra tài khoản bị khóa" vertex="1">
+          <mxGeometry height="52" width="200" x="180" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="c23" edge="1" parent="1" source="c11" style="dashed=1;endArrow=open;endSize=8;html=1;fontSize=11;" target="c5" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c24" edge="1" parent="1" source="c6" style="dashed=1;endArrow=open;endSize=8;html=1;fontSize=11;" target="c12" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" edge="1" parent="1" source="c13" style="dashed=1;endArrow=open;endSize=8;html=1;fontSize=11;" target="c6" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" edge="1" parent="1" source="c18" style="dashed=1;endArrow=open;endSize=8;html=1;fontSize=11;" target="c22" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c29" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c30" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c31" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c32" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c33" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c34" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c35" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c36" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c10" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c37" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c38" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c39" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c40" edge="1" parent="1" source="c27" style="endArrow=none;html=1;strokeColor=#555555;" target="c21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c41" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c42" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c43" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c44" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c45" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c18" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c46" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c19" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c47" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c20" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c48" edge="1" parent="1" source="c28" style="endArrow=none;html=1;strokeColor=#555555;" target="c21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c_offline" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffffff;strokeColor=#000000;" value="Xem dữ liệu đã lưu&lt;br&gt;khi mất kết nối" vertex="1">
+          <mxGeometry height="52" width="210" x="190" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="c27" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1;fontSize=13;" value="Người dùng" vertex="1">
+          <mxGeometry height="60" width="30" x="60" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="c28" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontStyle=1;fontSize=13;" value="Quản trị viên" vertex="1">
+          <mxGeometry height="60" width="30" x="1120" y="420" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
